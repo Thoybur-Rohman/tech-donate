@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {InnerPageContainer, PageContainer} from "../../components/pageCointainer";
 import {TopSection} from "./topSection";
 import {Navbar} from "../../components/NavBar";
+import {DonatePage} from "../../components/DonatePage";
 
 
 const Tittle = styled.h1`
@@ -19,6 +20,7 @@ export function HomePage(props){
      </TopSection>
         <InnerPageContainer>
             <Tittle> What services we offer</Tittle>
+            <DonatePage/>
         </InnerPageContainer>
     </PageContainer>
     )
