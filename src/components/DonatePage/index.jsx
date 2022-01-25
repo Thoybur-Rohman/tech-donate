@@ -4,6 +4,7 @@ import {Marginer} from "../Marginer";
 import uniImg from "../../images/uni-removebg-preview.png"
 import {BrandLogo} from "../Logo";
 import studentOnLaptop from "../../images/grad.jpg"
+import {Button} from "../Button-Front-page";
 
 
 const SpecialistAdContainer = styled.div`
@@ -59,17 +60,17 @@ export function DonatePage(props) {
         <SpecialistAdContainer>
             <ContentContainer>
                 <SloganContainer>
-                    <BrandLogo Logosize={150} tittleSize={55} logoMargin={0}/>
-                    <Marginer direction="vertical" margin="0.8em"/>
+                    <BrandLogo Logosize={150} tittleSize={0} logoMargin={0}/>
+                    <Marginer direction="vertical" margin="0.1em"/>
                    <SloganContainer>
                         <Slogan> HELP REUSE  </Slogan>
                         <Slogan>RECYCLE</Slogan>
                         <Slogan>EDUCATION</Slogan>
                     </SloganContainer>
-                    <Marginer direction="vertical" margin="0.8em" />
+                    <Marginer direction="vertical" margin="0.1em" />
+                   <Button size={15}>JOIN NOW </Button>
                 </SloganContainer>
                 <StandoutImage>
-
                 </StandoutImage>
                 <StandoutImage>
                 </StandoutImage>
